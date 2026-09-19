@@ -1,1 +1,1 @@
-import{describe,it,expect}from"vitest";describe("API request basics",()=>{it("supports standard REST methods",()=>expect(["GET","POST","PUT","PATCH","DELETE"].includes("POST")).toBe(true));it("parses JSON responses",()=>expect(JSON.parse('{"ok":true}').ok).toBe(true)});
+import{describe,it,expect}from"vitest";describe("API request basics",()=>{it("supports standard REST methods",()=>expect(["GET","POST","PUT","PATCH","DELETE"].includes("POST")).toBe(true));it("parses JSON responses",()=>expect(JSON.parse('{"ok":true}').ok).toBe(true));});
